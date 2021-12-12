@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures_Algorithms", "DataStructures_Algorithms\DataStructures_Algorithms.csproj", "{9D1A7C6A-66FF-4939-9886-1DFB1C2F8409}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{0A231460-504B-4416-B092-E8E848EE5878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFS", "Graph\DFS\DFS.csproj", "{783EE5D5-E2C1-4B61-BD7E-C9FFEB5FE62F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D1A7C6A-66FF-4939-9886-1DFB1C2F8409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D1A7C6A-66FF-4939-9886-1DFB1C2F8409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D1A7C6A-66FF-4939-9886-1DFB1C2F8409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D1A7C6A-66FF-4939-9886-1DFB1C2F8409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783EE5D5-E2C1-4B61-BD7E-C9FFEB5FE62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783EE5D5-E2C1-4B61-BD7E-C9FFEB5FE62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783EE5D5-E2C1-4B61-BD7E-C9FFEB5FE62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783EE5D5-E2C1-4B61-BD7E-C9FFEB5FE62F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{783EE5D5-E2C1-4B61-BD7E-C9FFEB5FE62F} = {0A231460-504B-4416-B092-E8E848EE5878}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {337DD71E-74FF-42AA-8D8C-A1596A4DA9AB}
+	EndGlobalSection
+EndGlobal
